@@ -1,0 +1,42 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.auth-root-body {
+  background: #fc466b;
+  background: -webkit-linear-gradient(to right, #3f5efb, #fc466b);
+  background: linear-gradient(to right, #3f5efb, #fc466b);
+  /* background: url("../assets/6909.jpg");
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  background-position: right center; */
+  /* object-fit: cover; */
+}
+
+.glass-container {
+  position: relative;
+  box-sizing: border-box;
+  padding: 30px;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.6px);
+  -webkit-backdrop-filter: blur(11.6px);
+  box-sizing: border-box;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 30%;
+  height: 70%;
+  padding: 20px;
+}

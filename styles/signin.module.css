@@ -1,0 +1,11 @@
+.signInContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.h1 {
+  font-size: 2vw;
+  font-weight: bolder;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
